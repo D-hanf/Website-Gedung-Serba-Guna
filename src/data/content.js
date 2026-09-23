@@ -122,7 +122,7 @@ export const gallery = [
   // GANTI: ganti seluruh array ini dengan foto asli gedung begitu tersedia dari klien
   // Format: { src: "URL foto", alt: "Deskripsi foto untuk aksesibilitas", label: "Judul di hover" }
   {
-    src: "https://placehold.co/1200x500/7b2d2d/f5ede0?text=Tampak+Depan+Gedung+Rato+Ebhu",
+    src: "https://placehold.co/1200x500/7b2d2d/f5ede0?text=Tampak+Depan+Gedung+Ratu+Ibu",
     alt: "Tampak depan Gedung Ratu Ibu",
     label: "Tampak Depan Gedung",
   },
