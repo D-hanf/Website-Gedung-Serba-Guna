@@ -147,11 +147,11 @@ export default function Contact() {
 
             {/* Google Maps embed */}
             {/* GANTI: pastikan mapsEmbedUrl di content.js sudah diisi URL embed Maps yang benar */}
-            <div className="contact__map" aria-label="Peta lokasi Gedung Rato Ebhu">
+            <div className="contact__map" aria-label="Peta lokasi Gedung Ratu Ibu">
               {site.mapsEmbedUrl && site.mapsEmbedUrl.includes("pb=!") ? (
                 <iframe
                   src={site.mapsEmbedUrl}
-                  title="Lokasi Gedung Rato Ebhu di Google Maps"
+                  title="Lokasi Gedung Ratu Ibu di Google Maps"
                   loading="lazy"
                   allowFullScreen
                   referrerPolicy="no-referrer-when-downgrade"

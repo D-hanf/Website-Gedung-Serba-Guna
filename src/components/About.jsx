@@ -26,7 +26,7 @@ export default function About() {
             <div className="about__visual reveal">
               <div className="about__photo-stack">
                 {/* GANTI: ganti div ini dengan <img> foto interior asli gedung */}
-                <div className="about__photo-main" role="img" aria-label="Foto interior Gedung Rato Ebhu">
+                <div className="about__photo-main" role="img" aria-label="Foto interior Gedung Ratu Ibu">
                   <svg
                     style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)", opacity: 0.15 }}
                     width="160"
@@ -53,7 +53,7 @@ export default function About() {
                 </div>
 
                 {/* GANTI: ganti div ini dengan <img> foto eksterior/fasad */}
-                <div className="about__photo-accent" role="img" aria-label="Foto eksterior Gedung Rato Ebhu">
+                <div className="about__photo-accent" role="img" aria-label="Foto eksterior Gedung Ratu Ibu">
                   <div style={{
                     position: "absolute", inset: 0,
                     display: "flex", alignItems: "center", justifyContent: "center",

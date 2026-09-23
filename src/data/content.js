@@ -1,5 +1,5 @@
 // =====================================================================
-// PUSAT DATA KONTEN — GEDUNG RATO EBHU
+// PUSAT DATA KONTEN — GEDUNG Ratu Ibu
 // =====================================================================
 // Cara penggunaan:
 // • Semua teks, nomor, URL yang bertanda // GANTI: perlu diisi klien.
@@ -8,17 +8,17 @@
 // =====================================================================
 
 export const site = {
-  name: "Gedung Rato Ebhu",
+  name: "Gedung Ratu Ibu",
   tagline: "Gedung Serbaguna Premium Madura",
-  whatsappNumber: "6281234567890", // GANTI: nomor WhatsApp aktif bisnis (format 62xxxxxxxxxx, tanpa + atau spasi)
-  phoneDisplay: "+62 812-3456-7890", // GANTI: nomor telepon untuk ditampilkan
-  email: "info@ratoebhu.com", // GANTI: email aktif
+  whatsappNumber: "6287821766059", // GANTI: nomor WhatsApp aktif bisnis (format 62xxxxxxxxxx, tanpa + atau spasi)
+  phoneDisplay: "+62 878-2176-6059", // GANTI: nomor telepon untuk ditampilkan
+  email: "info@ratuibu.com", // GANTI: email aktif
   address: "Jl. Contoh Raya No. 1, Bangkalan, Madura, Jawa Timur 69117", // GANTI: alamat lengkap gedung
   mapsEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8343789146056!2d112.74597097504478!3d-7.028744992973068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd80588e4f24467%3A0xc97368d0bad5a5!2sGedung%20Serba%20Guna%20Rato%20Ebuh!5e0!3m2!1sen!2sus!4v1790123131495!5m2!1sen!2sus", // GANTI: URL embed Google Maps — buka Google Maps → cari lokasi → Share → Embed a map → salin URL src
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63358.066133400775!2d112.69598326524242!3d-7.023490852332338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd80f60554b1adf%3A0xe181faf130f4decf!2sBangkalan%2C%20Kec.%20Bangkalan%2C%20Kabupaten%20Bangkalan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1790158046952!5m2!1sid!2sid", // GANTI: URL embed Google Maps — buka Google Maps → cari lokasi → Share → Embed a map → salin URL src
   operationalHours: "Setiap hari, 08.00 – 21.00 WIB", // GANTI: jam operasional
-  instagram: "https://instagram.com/ratoebhu", // GANTI: URL akun Instagram
-  facebook: "https://facebook.com/ratoebhu", // GANTI: URL akun Facebook
+  instagram: "https://instagram.com/", // GANTI: URL akun Instagram
+  facebook: "https://facebook.com/", // GANTI: URL akun Facebook
 };
 
 export const hero = {
@@ -26,7 +26,7 @@ export const hero = {
   headline: "Rumah bagi setiap\nperayaan berharga", // Baris baru pakai \n
   headlineHighlight: "perayaan berharga", // kata yang dicetak miring merah
   subheadline:
-    "Dari akad nikah hingga wisuda dan seminar profesional — Gedung Rato Ebhu menghadirkan ruang lapang bernuansa tradisional yang siap menampung momen terpenting hidup Anda.", // GANTI: tagline resmi dari klien
+    "Dari akad nikah hingga wisuda dan seminar profesional — Gedung Ratu Ibu menghadirkan ruang lapang bernuansa tradisional yang siap menampung momen terpenting hidup Anda.", // GANTI: tagline resmi dari klien
   stats: [
     { value: "500+", label: "Acara Sukses" }, // GANTI: angka asli
     { value: "500", label: "Kapasitas Tamu" }, // GANTI
@@ -36,11 +36,11 @@ export const hero = {
 };
 
 export const about = {
-  heading: "Tentang Rato Ebhu",
+  heading: "Tentang Ratu Ibu",
   paragraphs: [
     // GANTI: ganti seluruh paragraf ini dengan profil & sejarah asli dari klien
-    "Berdiri sejak [GANTI: tahun], Gedung Rato Ebhu lahir dari tekad untuk menghadirkan ruang perayaan yang menghormati akar budaya Madura — bukan sekadar tempat, melainkan panggung bagi momen-momen yang akan dikenang selamanya.",
-    "Nama Rato Ebhu sendiri berasal dari bahasa Madura yang bermakna [GANTI: arti nama / filosofi yang ingin disampaikan klien]. Nilai budaya ini tercermin dalam setiap detail arsitektur dan layanan yang kami berikan.",
+    "Berdiri sejak [GANTI: tahun], Gedung Ratu Ibu lahir dari tekad untuk menghadirkan ruang perayaan yang menghormati akar budaya Madura — bukan sekadar tempat, melainkan panggung bagi momen-momen yang akan dikenang selamanya.",
+    "Nama Ratu Ibu sendiri berasal dari bahasa Madura yang bermakna [GANTI: arti nama / filosofi yang ingin disampaikan klien]. Nilai budaya ini tercermin dalam setiap detail arsitektur dan layanan yang kami berikan.",
     "Kami percaya bahwa setiap acara — sekecil rapat keluarga atau sebesar resepsi pernikahan ratusan tamu — pantas mendapat ruang yang tertata rapi, nyaman, aman, dan berkesan bagi semua yang hadir.",
   ],
   highlights: [
@@ -123,17 +123,17 @@ export const gallery = [
   // Format: { src: "URL foto", alt: "Deskripsi foto untuk aksesibilitas", label: "Judul di hover" }
   {
     src: "https://placehold.co/1200x500/7b2d2d/f5ede0?text=Tampak+Depan+Gedung+Rato+Ebhu",
-    alt: "Tampak depan Gedung Rato Ebhu",
+    alt: "Tampak depan Gedung Ratu Ibu",
     label: "Tampak Depan Gedung",
   },
   {
     src: "https://placehold.co/800x600/1e1510/f5ede0?text=Interior+Ruang+Utama",
-    alt: "Interior ruang utama Gedung Rato Ebhu",
+    alt: "Interior ruang utama Gedung Ratu Ibu",
     label: "Ruang Utama",
   },
   {
     src: "https://placehold.co/800x600/b8922e/1e1510?text=Dekorasi+Pernikahan",
-    alt: "Dekorasi acara pernikahan di Gedung Rato Ebhu",
+    alt: "Dekorasi acara pernikahan di Gedung Ratu Ibu",
     label: "Dekorasi Pernikahan",
   },
   {

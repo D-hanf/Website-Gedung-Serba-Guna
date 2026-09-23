@@ -114,7 +114,7 @@ export default function Hero() {
                 <div className="hero__frame-wrapper">
                   <img
                     src="/images/gedung-tampak-depan.jpg"
-                    alt="Tampak depan Gedung Rato Ebhu"
+                    alt="Tampak depan Gedung Ratu Ibu"
                     className="hero__frame"
                     style={{ objectFit: 'cover', width: '100%', height: '100%', borderRadius: 4 }}
                     loading="eager"
@@ -136,7 +136,7 @@ export default function Hero() {
               <div
                 className="hero__frame"
                 role="img"
-                aria-label="Ilustrasi Gedung Rato Ebhu — foto asli akan ditampilkan di sini"
+                aria-label="Ilustrasi Gedung Ratu Ibu — foto asli akan ditampilkan di sini"
               >
                 <div className="hero__frame-texture" aria-hidden="true" />
                 {/* Batik ornament SVG */}

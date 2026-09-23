@@ -94,7 +94,7 @@ export default function Gallery() {
               <span className="section-accent-bar__label">Galeri</span>
             </div>
             <h2 id="galeri-heading" className="section-heading reveal reveal-delay-1">
-              Suasana & Momen di Gedung Rato Ebhu
+              Suasana & Momen di Gedung Ratu Ibu
             </h2>
             <p className="section-subtext reveal reveal-delay-2">
               Klik foto untuk memperbesar. Geser keyboard ← → untuk navigasi.

@@ -83,7 +83,7 @@ export default function Footer() {
                 href={site.instagram}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Instagram Gedung Rato Ebhu"
+                aria-label="Instagram Gedung Ratu Ibu"
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "center",
                   width: 36, height: 36, borderRadius: "50%",
@@ -98,7 +98,7 @@ export default function Footer() {
                 href={site.facebook}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Facebook Gedung Rato Ebhu"
+                aria-label="Facebook Gedung Ratu Ibu"
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "center",
                   width: 36, height: 36, borderRadius: "50%",
@@ -113,7 +113,7 @@ export default function Footer() {
                 href={`https://wa.me/${site.whatsappNumber}`}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="WhatsApp Gedung Rato Ebhu"
+                aria-label="WhatsApp Gedung Ratu Ibu"
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "center",
                   width: 36, height: 36, borderRadius: "50%",

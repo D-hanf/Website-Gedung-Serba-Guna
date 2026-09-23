@@ -1,5 +1,5 @@
 /**
- * GEDUNG RATO EBHU — Main JavaScript
+ * GEDUNG Ratu Ibu — Main JavaScript
  * Fitur: Navbar scroll, hamburger menu, scroll reveal,
  *        galeri filter + lightbox, testimoni carousel,
  *        form WhatsApp, back-to-top, active nav link.
@@ -514,7 +514,7 @@ function isInViewport(el, threshold = 0.15) {
 
     // GANTI: sesuaikan template pesan WhatsApp jika diperlukan
     const message = [
-      `*PEMESANAN / PERTANYAAN — Gedung Rato Ebhu*`,
+      `*PEMESANAN / PERTANYAAN — Gedung Ratu Ibu*`,
       ``,
       `📋 *Nama Lengkap:* ${nama}`,
       `📱 *No. WhatsApp:* ${wa}`,
@@ -526,7 +526,7 @@ function isInViewport(el, threshold = 0.15) {
       pesan,
       ``,
       `---`,
-      `_Pesan ini dikirim melalui website Gedung Rato Ebhu._`,
+      `_Pesan ini dikirim melalui website Gedung Ratu Ibu._`,
     ].join('\n');
 
     // Get WA number from button data attribute (customizable)
@@ -605,7 +605,7 @@ function isInViewport(el, threshold = 0.15) {
    10. CONSOLE WELCOME MESSAGE
    ============================================================ */
 console.log(
-  '%c🏛️ Gedung Rato Ebhu%c\n%cWebsite dikembangkan untuk keperluan presentasi klien.\nUntuk customisasi & pengembangan lanjutan, hubungi developer.',
+  '%c🏛️ Gedung Ratu Ibu%c\n%cWebsite dikembangkan untuk keperluan presentasi klien.\nUntuk customisasi & pengembangan lanjutan, hubungi developer.',
   'font-size:18px; font-weight:bold; color:#D4AF37;',
   '',
   'font-size:12px; color:#8B4513;'

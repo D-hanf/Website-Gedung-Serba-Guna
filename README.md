@@ -1,4 +1,4 @@
-# Website Gedung Rato Ebhu (React + Vite)
+# Website Gedung Ratu Ibu (React + Vite)
 
 ## Menjalankan project
 
