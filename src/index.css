@@ -895,7 +895,7 @@ ul, ol {
 
 /* Featured badge */
 .package-card--featured::before {
-  content: "★ Terpopuler";
+  content: "Terpopuler";
   position: absolute;
   top: 16px;
   right: 16px;

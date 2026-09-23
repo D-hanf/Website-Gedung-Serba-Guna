@@ -124,7 +124,7 @@ export default function Hero() {
             <div className="hero__frame-wrapper reveal reveal-delay-2">
               {/* Floating ornament cards */}
               <div className="hero__ornament-card hero__ornament-card--1" aria-hidden="true">
-                <span className="hero__ornament-card__value">★ 5.0</span>
+                <span className="hero__ornament-card__value">5/5</span>
                 <span className="hero__ornament-card__label">Rating Pelanggan</span>
               </div>
               <div className="hero__ornament-card hero__ornament-card--2" aria-hidden="true">

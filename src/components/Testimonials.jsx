@@ -2,19 +2,10 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { testimonials } from "../data/content";
 import SectionDivider from "./SectionDivider";
 
-// Star icon
 function Stars({ rating }) {
   return (
     <div className="testimonial-card__rating" aria-label={`Rating: ${rating} dari 5 bintang`}>
-      {[1, 2, 3, 4, 5].map((s) => (
-        <span
-          key={s}
-          className={`testimonial-card__star${s > rating ? " testimonial-card__star--empty" : ""}`}
-          aria-hidden="true"
-        >
-          ★
-        </span>
-      ))}
+      <span aria-hidden="true">{rating}/5</span>
     </div>
   );
 }

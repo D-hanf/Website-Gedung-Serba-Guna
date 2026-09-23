@@ -516,13 +516,13 @@ function isInViewport(el, threshold = 0.15) {
     const message = [
       `*PEMESANAN / PERTANYAAN — Gedung Ratu Ibu*`,
       ``,
-      `📋 *Nama Lengkap:* ${nama}`,
-      `📱 *No. WhatsApp:* ${wa}`,
-      `🎉 *Jenis Acara:* ${acara}`,
-      `📅 *Tanggal Acara:* ${tanggal}`,
-      `👥 *Perkiraan Tamu:* ${tamu} orang`,
+      `*Nama Lengkap:* ${nama}`,
+      `*No. WhatsApp:* ${wa}`,
+      `*Jenis Acara:* ${acara}`,
+      `*Tanggal Acara:* ${tanggal}`,
+      `*Perkiraan Tamu:* ${tamu} orang`,
       ``,
-      `💬 *Pesan / Keterangan:*`,
+      `*Pesan / Keterangan:*`,
       pesan,
       ``,
       `---`,
@@ -605,7 +605,7 @@ function isInViewport(el, threshold = 0.15) {
    10. CONSOLE WELCOME MESSAGE
    ============================================================ */
 console.log(
-  '%c🏛️ Gedung Ratu Ibu%c\n%cWebsite dikembangkan untuk keperluan presentasi klien.\nUntuk customisasi & pengembangan lanjutan, hubungi developer.',
+  '%cGedung Ratu Ibu%c\n%cWebsite dikembangkan untuk keperluan presentasi klien.\nUntuk customisasi & pengembangan lanjutan, hubungi developer.',
   'font-size:18px; font-weight:bold; color:#D4AF37;',
   '',
   'font-size:12px; color:#8B4513;'

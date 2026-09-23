@@ -99,7 +99,6 @@ export default function About() {
               <ul className="about__highlights reveal reveal-delay-3">
                 {about.highlights.map((h) => (
                   <li className="about__highlight-item" key={h.label}>
-                    <span className="about__highlight-icon" aria-hidden="true">{h.icon}</span>
                     <span className="about__highlight-value">{h.value}</span>
                     <span className="about__highlight-label">{h.label}</span>
                   </li>

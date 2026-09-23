@@ -44,10 +44,10 @@ export const about = {
     "Kami percaya bahwa setiap acara — sekecil rapat keluarga atau sebesar resepsi pernikahan ratusan tamu — pantas mendapat ruang yang tertata rapi, nyaman, aman, dan berkesan bagi semua yang hadir.",
   ],
   highlights: [
-    { icon: "👥", label: "Kapasitas Maksimal", value: "500 Tamu" }, // GANTI: kapasitas nyata
-    { icon: "📅", label: "Berpengalaman Sejak", value: "20XX" }, // GANTI: tahun berdiri
-    { icon: "🚗", label: "Area Parkir", value: "Luas & Aman" }, // GANTI: deskripsi parkir
-    { icon: "📍", label: "Lokasi", value: "Strategis" }, // GANTI: keunggulan lokasi
+    { label: "Kapasitas Maksimal", value: "500 Tamu" }, // GANTI: kapasitas nyata
+    { label: "Berpengalaman Sejak", value: "20XX" }, // GANTI: tahun berdiri
+    { label: "Area Parkir", value: "Luas & Aman" }, // GANTI: deskripsi parkir
+    { label: "Lokasi", value: "Strategis" }, // GANTI: keunggulan lokasi
   ],
   // GANTI: jika ada foto interior dan eksterior, masukkan URL-nya di sini untuk section About
   photoMain: null, // contoh: "/images/interior.jpg"
@@ -59,7 +59,6 @@ export const packages = [
   // GANTI: seluruh data paket ini dengan harga, fasilitas, dan durasi asli dari klien
   {
     id: "pernikahan",
-    icon: "💍",
     title: "Paket Pernikahan",
     featured: true, // set true untuk tampilkan badge "Terpopuler"
     capacity: "Hingga 500 tamu",
@@ -80,7 +79,6 @@ export const packages = [
   },
   {
     id: "wisuda",
-    icon: "🎓",
     title: "Paket Wisuda & Akademik",
     featured: false,
     capacity: "Hingga 300 tamu",
@@ -99,7 +97,6 @@ export const packages = [
   },
   {
     id: "rapat",
-    icon: "🤝",
     title: "Paket Rapat & Seminar",
     featured: false,
     capacity: "Hingga 150 peserta",

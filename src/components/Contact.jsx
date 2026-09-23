@@ -158,7 +158,6 @@ export default function Contact() {
                 />
               ) : (
                 <div style={{ display: "flex", flexDirection: "column", gap: 8, textAlign: "center" }}>
-                  <span style={{ fontSize: "2rem" }}>📍</span>
                   <span>
                     Peta akan muncul setelah{" "}
                     <code style={{ fontSize: "0.8em", background: "rgba(0,0,0,0.08)", padding: "2px 6px", borderRadius: 2 }}>
@@ -305,7 +304,7 @@ export default function Contact() {
                   role="status"
                   aria-live="polite"
                 >
-                  ✓ Pesan disiapkan — pastikan pop-up WhatsApp tidak diblokir browser.
+                  Pesan disiapkan — pastikan pop-up WhatsApp tidak diblokir browser.
                 </p>
               )}
             </form>

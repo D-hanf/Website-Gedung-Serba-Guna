@@ -68,11 +68,6 @@ export default function Facilities() {
                 aria-labelledby={`pkg-title-${pkg.id}`}
               >
                 <div className="package-card__header">
-                  {/* Icon */}
-                  <div className="package-card__icon" aria-hidden="true">
-                    {pkg.icon}
-                  </div>
-
                   {/* Title */}
                   <h3 id={`pkg-title-${pkg.id}`} className="package-card__title">
                     {pkg.title}

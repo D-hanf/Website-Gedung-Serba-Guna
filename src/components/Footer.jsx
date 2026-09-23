@@ -145,19 +145,15 @@ export default function Footer() {
             {/* GANTI: info kontak ada di content.js → objek site */}
             <div className="footer__contact-info">
               <span className="footer__contact-item">
-                <span>📍</span>
                 <span>{site.address}</span>
               </span>
               <span className="footer__contact-item">
-                <span>📞</span>
                 <span>{site.phoneDisplay}</span>
               </span>
               <span className="footer__contact-item">
-                <span>✉️</span>
                 <span>{site.email}</span>
               </span>
               <span className="footer__contact-item">
-                <span>🕐</span>
                 <span>{site.operationalHours}</span>
               </span>
             </div>
